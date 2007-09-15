@@ -28,7 +28,7 @@ Provides:	aspell-de_DE
 Obsoletes:	spell-%{languagecode}
 Provides:	spell-%{languagecode}
 
-# Mandrake Stuff
+# Mandriva Stuff
 Requires:	locales-%{languagecode}
 Provides:	aspell-dictionary
 
