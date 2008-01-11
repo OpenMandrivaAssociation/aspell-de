@@ -10,7 +10,7 @@
 
 Name:		aspell-%{languagecode}
 Version:	20030222.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	%{languageenglazy} files for aspell
 Group:		System/Internationalization
 Source:		http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
