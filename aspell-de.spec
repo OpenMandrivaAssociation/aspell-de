@@ -10,7 +10,7 @@
 
 Name:		aspell-%{languagecode}
 Version:	20030222.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	%{languageenglazy} files for aspell
 Group:		System/Internationalization
 Source:		http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
@@ -30,6 +30,8 @@ Provides:	spell-%{languagecode}
 
 # Mandriva Stuff
 Requires:	locales-%{languagecode}
+# aspell = 1, myspell = 2, lang-specific = 3
+Provides:	enchant-dictionary = 1
 Provides:	aspell-dictionary
 
 %description
