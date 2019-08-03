@@ -11,8 +11,8 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Epoch:		1
-Version:	20161207
-Release:	21
+Version:	20161207.7.0
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2
 Url:		http://aspell.sourceforge.net/
