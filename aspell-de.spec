@@ -11,7 +11,7 @@
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Epoch:		1
-Version:	20161207.7.0
+Version:	20161207_7_0
 Release:	1
 Group:		System/Internationalization
 License:	GPLv2
